@@ -87,7 +87,7 @@ function App() {
     greenMode={greenMode} pinkMode={pinkMode}/>
     <Alert alert={alert}/>
     <Routes>
-        <Route path='/' element={<Home/>}></Route>
+        <Route path='Text-Utiles' element={<Home/>}></Route>
         <Route path='about' element={<About/>}></Route>
     </Routes>
     {/* <TextArea title='Enter your text Below' showAlert={showAlert} modes={modes}/> */}
